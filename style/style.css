@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s linear;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.7rem;
+    --swiper-navigation-size: 2rem;
+    /* --swiper-theme-color:#03fc9d; */
+}
+body{
+    height: 200vh;
+}
+
+html{
+    font-size: 62.5%;
+}
+/* menubar */
+.show-list.active{
+    display: none;
+}
+/* next & prev */
+#next, #prev{
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: white;
+    background-color: #86d3c3;
+}
+/* pagination */
+.swiper-pagination-bullet-active{
+    background: #03fc9d !important;
+}
+
+/* responsive */
+@media screen and (max-width: 900px) {
+    html{
+        font-size: 50.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .show-list.active{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html{
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon -->
+    <link rel="icon" href="img/icon.jpg" />
+    <!-- style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1211799346681320");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1211799346681320&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <title>CoinApex: The crypto trading platform trusted by millions</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="fixed top-0 left-0 w-full bg-white border-b-[1px] shadow-sm z-40"
+    >
+      <div class="max-w-[1440px] m-auto px-4">
+        <div class="flex justify-between items-center gap-2 py-2 px-4">
+          <div class="">
+            <h1 class="text-[3.4rem] text-[#003b2f] font-medium">CoinApex</h1>
+          </div>
+          <div
+            class="md:flex flex-wrap items-center gap-8 text-gray-500 hidden"
+          >
+            <a href="#" class="hover:text-[#003b2f]">Mobile Apps</a>
+            <a href="#" class="hover:text-[#003b2f]">Earn Stake</a>
+            <a href="#" class="hover:text-[#003b2f]">Earn Lend</a>
+            <a href="#" class="hover:text-[#003b2f]">Markets</a>
+            <a href="#" class="hover:text-[#003b2f]">Tradeview</a>
+          </div>
+          <div class="">
+            <button
+              onclick="url()"
+              class="bg-[#003b2f] text-[#1ffca8] font-medium rounded-md px-16 py-[.5rem]"
+            >
+              Join
+            </button>
+          </div>
+          <div class="md:hidden">
+            <i
+              class="fa-solid fa-bars menu-bars text-[2.5rem] text-[#003b2f]"
+            ></i>
+          </div>
+        </div>
+        <div class="hidden pt-8 pb-24 show-list">
+          <div class="md:hidden flex flex-col text-gray-500 w-full">
+            <a
+              href="#"
+              class="hover:text-[#003b2f] py-5 px-4 hover:bg-[#eaeaea] border-b-[.1rem]"
+              >Mobile Apps</a
+            >
+            <a
+              href="#"
+              class="hover:text-[#003b2f] py-5 px-4 hover:bg-[#eaeaea] border-b-[.1rem]"
+              >Earn Stake</a
+            >
+            <a
+              href="#"
+              class="hover:text-[#003b2f] py-5 px-4 hover:bg-[#eaeaea] border-b-[.1rem]"
+              >Earn Lend</a
+            >
+            <a
+              href="#"
+              class="hover:text-[#003b2f] py-5 px-4 hover:bg-[#eaeaea] border-b-[.1rem]"
+              >Markets</a
+            >
+            <a
+              href="#"
+              class="hover:text-[#003b2f] py-5 px-4 hover:bg-[#eaeaea] border-b-[.1rem]"
+              >Tradeview</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- hero -->
+    <section class="bg-[#003b2f] mt-24">
+      <div class="max-w-[1440px] m-auto px-8">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-14 py-28">
+          <div class="md:max-w-[74%] text-white leading-snug">
+            <h1 class="xl:text-[6.4rem] text-[5.2rem]">
+              <span
+                class="xl:text-[6.4rem] text-[5.2rem] bg-[#03fc9d] font-medium text-black px-8"
+                >Buy & trade</span
+              >
+              with ease on the trusted crypto exchange.
+            </h1>
+            <p class="py-14 text-[20px]">
+              Designed for simplicity, Bitstamp helps you feel good about
+              crypto. Trusted Crypto Exchange Since 2011.
+            </p>
+            <div
+              class="flex md:justify-start justify-center sm:w-[180px] w-full"
+            >
+              <button
+                onclick="url()"
+                class="inline bg-[#03fc9d] hover:bg-white py-[1rem] rounded-md w-full text-black font-medium"
+              >
+                Get started
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-center m-auto md:max-w-[320px] w-[250px]">
+            <video width="100%" height="100%" controls autoplay muted>
+              <source src="video/hero-video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of hero -->
+
+    <!-- slide -->
+    <section>
+      <div class="max-w-[1440px] m-auto px-8 pb-20">
+        <div class="swiper mySwiper w-full md:pb-16 pb-10">
+          <div class="swiper-wrapper w-full">
+            <!-- 1 -->
+            <div class="swiper-slide">
+              <div
+                class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 pt-32"
+              >
+                <div class="">
+                  <h1 class="text-[4.8rem] text-[#003b2f] font-medium">
+                    <span
+                      class="text-[4.8rem] font-medium bg-[#03fc9d] text-[#003b2f] px-4"
+                      >New offering:</span
+                    >
+                    Set up Recurring buy or sell!
+                  </h1>
+                  <p class="py-10 text-[#003b2f]">
+                    Effortlessly schedule your transaction and build your crypto
+                    routine.
+                  </p>
+                  <button
+                    onclick="url()"
+                    class="bg-[#03fc9d] hover:bg-[#003b2f] hover:text-[#03fc9d] text-[#003b2f] py-[1rem] px-8 rounded-md"
+                  >
+                    Start now
+                  </button>
+                </div>
+                <div class="flex justify-center m-auto md:w-[90%] w-[100%]">
+                  <img src="img/slide1.png" alt="" class="w-full" />
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="swiper-slide">
+              <div
+                class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 pt-32"
+              >
+                <div class="">
+                  <h1 class="text-[4.8rem] text-[#003b2f] font-medium">
+                    Bitstamp crypto lending -
+                    <span
+                      class="text-[4.8rem] font-medium bg-[#03fc9d] text-[#003b2f] px-4"
+                    >
+                      Earn with confidence
+                    </span>
+                  </h1>
+                  <p class="py-10 text-[#003b2f]">
+                    The transparent way to put your crypto to work
+                  </p>
+                  <button
+                    onclick="url()"
+                    class="bg-[#03fc9d] hover:bg-[#003b2f] hover:text-[#03fc9d] text-[#003b2f] py-[1rem] px-8 rounded-md"
+                  >
+                    Explore more
+                  </button>
+                </div>
+                <div class="flex justify-center m-auto md:w-[90%] w-[100%]">
+                  <img src="img/slide2.png" alt="" class="w-full" />
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="swiper-slide">
+              <div
+                class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 pt-32"
+              >
+                <div class="">
+                  <h1 class="text-[4.8rem] text-[#003b2f] font-medium">
+                    <span
+                      class="text-[4.8rem] font-medium bg-[#03fc9d] text-[#003b2f] px-4"
+                      >navigating crypto</span
+                    >
+                    made simple
+                  </h1>
+                  <p class="py-10 text-[#003b2f]">Feel good about crypto.</p>
+                  <button
+                    onclick="url()"
+                    class="bg-[#03fc9d] hover:bg-[#003b2f] hover:text-[#03fc9d] text-[#003b2f] py-[1rem] px-8 rounded-md"
+                  >
+                    Download now
+                  </button>
+                </div>
+                <div class="flex justify-center m-auto md:w-[90%] w-[100%]">
+                  <img src="img/slide3.png" alt="" class="w-full" />
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="swiper-slide">
+              <div
+                class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 pt-32"
+              >
+                <div class="">
+                  <h1 class="text-[4.8rem] font-medium text-[#003b2f] pb-20">
+                    <span
+                      class="text-[4.8rem] bg-[#03fc9d] text-[#003b2f] font-medium px-4"
+                      >Bitstamp Pro</span
+                    >
+                  </h1>
+                  <button
+                    onclick="url()"
+                    class="bg-[#03fc9d] hover:bg-[#003b2f] hover:text-[#03fc9d] text-[#003b2f] py-[1rem] px-8 rounded-md"
+                  >
+                    Explore more
+                  </button>
+                </div>
+                <div class="flex justify-center m-auto md:w-[90%] w-[100%]">
+                  <img src="img/slide4.png" alt="" class="w-full" />
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="swiper-slide">
+              <div
+                class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 pt-32"
+              >
+                <div class="">
+                  <h1 class="text-[4.8rem] text-[#003b2f] font-medium">
+                    Awarded the
+                    <span
+                      class="text-[4.8rem] bg-[#03fc9d] font-medium text-[#003b2f] px-4"
+                      >highest rating 7</span
+                    >
+                    times in a row
+                  </h1>
+                  <p class="py-10 text-[#003b2f]">
+                    More than any other crypto exchange
+                  </p>
+                  <button
+                    onclick="url()"
+                    class="bg-[#03fc9d] hover:bg-[#003b2f] hover:text-[#03fc9d] text-[#003b2f] py-[1rem] px-8 rounded-md"
+                  >
+                    Learn why
+                  </button>
+                </div>
+                <div class="flex justify-center m-auto md:w-[90%] w-[100%]">
+                  <img src="img/slide5.png" alt="" class="w-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next" id="next"></div>
+          <div class="swiper-button-prev" id="prev"></div>
+          <div class="swiper-pagination" id="pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end of slide -->
+
+    <!-- buy -->
+    <section class="bg-[#f2f2f2]">
+      <div class="max-w-[1440px] m-auto px-8 py-32">
+        <div class="grid grid-cols-4 gap-1">
+          <!-- 1 -->
+          <div class="">
+            <div class="">
+              <h2 class="pb-10 font-medium">Assets</h2>
+            </div>
+            <div class="flex gap-2 items-center pb-8">
+              <img src="img/icon-btc.svg" alt="" class="w-[3rem]" />
+            </div>
+            <div class="flex gap-2 items-center pb-8">
+              <img src="img/icon-eth.svg" alt="" class="w-[3rem]" />
+            </div>
+            <div class="flex gap-2 items-center pb-8">
+              <img src="img/icon-doge.svg" alt="" class="w-[3rem]" />
+            </div>
+            <div class="flex gap-2 items-center pb-8">
+              <img src="img/icon-ada.svg" alt="" class="w-[3rem]" />
+            </div>
+            <div class="flex gap-2 items-center">
+              <img src="img/icon-zrp.svg" alt="" class="w-[3rem]" />
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="">
+            <div class="">
+              <h2 class="pb-10 font-medium">Price</h2>
+            </div>
+            <div class="pb-10">
+              <div class="" id="priceBTC"></div>
+            </div>
+            <div class="pb-10">
+              <div class="" id="priceETH"></div>
+            </div>
+            <div class="pb-10">
+              <div class="" id="priceDOGE"></div>
+            </div>
+            <div class="pb-10">
+              <div class="" id="priceADA"></div>
+            </div>
+            <div class="">
+              <div class="" id="priceXRP"></div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="">
+            <div class="">
+              <h2 class="pb-10 font-medium">24h</h2>
+            </div>
+            <div class="pb-10">
+              <div class="text-[#00a35a]" id="timeBTC"></div>
+            </div>
+            <div class="pb-10">
+              <div class="text-[#00a35a]" id="timeETH"></div>
+            </div>
+            <div class="pb-10">
+              <div class="text-[#00a35a]" id="timeDOGE"></div>
+            </div>
+            <div class="pb-10">
+              <div class="text-[#00a35a]" id="timeADA"></div>
+            </div>
+            <div class="">
+              <div class="text-[#00a35a]" id="timeXRP"></div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="">
+            <div class="">
+              <div class="">
+                <h2 class="pb-10 font-medium">Start now</h2>
+              </div>
+              <div class="pb-10">
+                <button
+                  class="bg-white px-8 py-[.2rem] text-[1.5rem] hover:bg-[#003b2f] hover:text-[#03fc9d] rounded-md"
+                >
+                  Buy
+                </button>
+              </div>
+              <div class="pb-10">
+                <button
+                  class="bg-white px-8 py-[.2rem] text-[1.5rem] hover:bg-[#003b2f] hover:text-[#03fc9d] rounded-md"
+                >
+                  Buy
+                </button>
+              </div>
+              <div class="pb-10">
+                <button
+                  class="bg-white px-8 py-[.2rem] text-[1.5rem] hover:bg-[#003b2f] hover:text-[#03fc9d] rounded-md"
+                >
+                  Buy
+                </button>
+              </div>
+              <div class="pb-10">
+                <button
+                  class="bg-white px-8 py-[.2rem] text-[1.5rem] hover:bg-[#003b2f] hover:text-[#03fc9d] rounded-md"
+                >
+                  Buy
+                </button>
+              </div>
+              <div class="">
+                <button
+                  class="bg-white px-8 py-[.2rem] text-[1.5rem] hover:bg-[#003b2f] hover:text-[#03fc9d] rounded-md"
+                >
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of buy -->
+
+    <!-- Security -->
+    <section class="bg-[#03fc9d]">
+      <div class="max-w-[1440px] m-auto px-8 py-32">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20">
+          <article
+            class="flex flex-col md:justify-start justify-center md:items-start items-center"
+          >
+            <div class="">
+              <img src="img/1.webp" alt="" class="" />
+            </div>
+            <div class="md:text-start text-center">
+              <h2 class="py-10 text-[2.8rem] font-medium text-[#003b2f]">
+                <span
+                  class="bg-white text-[2.8rem] px-4 font-medium text-[#003b2f]"
+                  >Ease</span
+                >
+                of Trading
+              </h2>
+              <div class="flex flex-col text-[2rem]">
+                <span class="py-3 text-[2rem] text-[#003b2f] border-b-[.3rem]"
+                  >Intuitive interface</span
+                >
+                <span class="py-3 text-[2rem] text-[#003b2f] border-b-[.3rem]"
+                  >Instant deposit options</span
+                >
+                <span class="py-3 text-[2rem] text-[#003b2f]"
+                  >Cash out directly to your bank account</span
+                >
+              </div>
+            </div>
+          </article>
+          <article
+            class="flex flex-col md:justify-start justify-center md:items-start items-center"
+          >
+            <div class="">
+              <img src="img/2.webp" alt="" class="" />
+            </div>
+            <div class="md:text-start text-center">
+              <h2 class="py-10 text-[2.8rem] font-medium text-[#003b2f]">
+                <span
+                  class="bg-white text-[2.8rem] px-4 font-medium text-[#003b2f]"
+                  >Institutional-grade</span
+                >
+                Security
+              </h2>
+              <div class="flex flex-col text-[2rem]">
+                <span class="py-3 text-[2rem] text-[#003b2f] border-b-[.3rem]"
+                  >95% of assets stored safely offline</span
+                >
+                <span class="py-3 text-[2rem] text-[#003b2f] border-b-[.3rem]"
+                  >Highly encrypted personal data</span
+                >
+                <span class="py-3 text-[2rem] text-[#003b2f]"
+                  >Whitelisting and transaction confirmations</span
+                >
+              </div>
+            </div>
+          </article>
+          <article
+            class="flex flex-col md:justify-start justify-center md:items-start items-center"
+          >
+            <div class="">
+              <img src="img/3.webp" alt="" class="" />
+            </div>
+            <div class="md:text-start text-center">
+              <h2 class="py-10 text-[2.8rem] font-medium text-[#003b2f]">
+                <span
+                  class="bg-white text-[2.8rem] px-4 font-medium text-[#003b2f]"
+                  >Proven</span
+                >
+                Reliability
+              </h2>
+              <div class="flex flex-col text-[2rem]">
+                <span class="py-3 text-[2rem] text-[#003b2f] border-b-[.3rem]"
+                  >Serving customers since 2011</span
+                >
+                <span class="py-3 text-[2rem] text-[#003b2f] border-b-[.3rem]"
+                  >Live customer support</span
+                >
+                <span class="py-3 text-[2rem] text-[#003b2f]"
+                  >Industry-leading uptime</span
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- end of Security -->
+
+    <!-- Join Bitstamp’s -->
+    <section class="bg-[#003b2f]">
+      <div class="max-w-[1440px] m-auto px-8">
+        <div
+          class="grid md:grid-cols-2 grid-cols-1 md:gap-14 gap-32 items-center py-28"
+        >
+          <div class="text-white leading-snug">
+            <h1 class="text-[4.8rem] text-white">
+              Join Bitstamp’s
+              <span
+                class="text-[4.8rem] bg-[#03fc9d] font-medium text-black px-8"
+                >crypto explorers</span
+              >
+            </h1>
+            <p class="py-14 text-[20px]">
+              Take a journey to crypto clarity with our handy guide: Crypto
+              Categories Unveiled
+            </p>
+            <div
+              class="flex md:justify-start justify-center sm:w-[200px] w-full"
+            >
+              <button
+                onclick="url()"
+                class="inline bg-[#03fc9d] hover:bg-white py-[1rem] rounded-md w-full text-black font-medium"
+              >
+                Start exploring
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-center m-auto">
+            <img src="img/4.webp" alt="" class="w-full" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Join Bitstamp’s -->
+
+    <!-- mobile apps -->
+    <section>
+      <div class="max-w-[1440px] m-auto px-8">
+        <div
+          class="grid md:grid-cols-2 grid-cols-1 md:gap-0 items-center py-28"
+        >
+          <div class="flex justify-center m-auto">
+            <img src="img/5.webp" alt="" class="w-full" />
+          </div>
+          <div class="md:max-w-[74%] text-white leading-snug">
+            <h1 class="text-[4.8rem] text-[#003b2f]">
+              <span
+                class="text-[4.8rem] bg-[#03fc9d] font-medium text-[#003b2f] px-8"
+                >Trade</span
+              >
+              on the go with our mobile apps.
+            </h1>
+            <h2 class="text-[2.4rem] text-[#003b2f] font-medium pt-14">
+              Take control of your crypto anytime with the app that fits your
+              experience
+            </h2>
+            <p class="text-[20px] text-[#003b2f] py-10">
+              Choose between the Bitstamp app, the easiest way to buy and sell
+              crypto, or the Bitstamp Pro app, built for pro traders and crypto
+              experts.
+            </p>
+            <p class="text-[1.5rem] text-[#003b2f] pb-10">
+              Not yet available in UK & USA but coming soon.
+            </p>
+            <div
+              class="flex md:justify-start justify-center sm:w-[200px] w-full"
+            >
+              <button
+                onclick="url()"
+                class="inline bg-[#03fc9d] py-[1rem] hover:bg-[#003b2f] hover:text-[#03fc9d] rounded-md w-full text-black font-medium"
+              >
+                Explore the Apps
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of mobile apps -->
+
+    <!-- Advanced -->
+    <section class="bg-[#003b2f]">
+      <div class="max-w-[1440px] m-auto px-8">
+        <div class="grid md:grid-cols-2 grid-cols-1 md:gap-4 gap-10 py-28">
+          <div class="text-white leading-snug">
+            <h1 class="text-[4.8rem] text-white">
+              <span
+                class="text-[4.8rem] bg-[#03fc9d] font-medium text-[#003b2f] px-8"
+                >Advanced</span
+              >
+              trading tools
+            </h1>
+            <article class="grid sm:grid-cols-2 grid-cols-1 gap-10">  
+              <div class="">
+                <h2 class="text-[2.4rem] font-medium pt-16 pb-8">
+                  Professional access, non-stop availability
+                </h2>
+                <p>
+                  We provide premium access to crypto trading for both
+                  individuals and institutions through high liquidity, reliable
+                  order execution and constant uptime.
+                </p>
+              </div>
+              <div class="">
+                <h2 class="text-[2.4rem] font-medium sm:pt-16 pt-4 pb-8">
+                  A range of powerful APIs
+                </h2>
+                <p>
+                  Set up your own trading interface or deploy your algorithmic
+                  strategy with our high-performance FIX and HTTP APIs. Connect
+                  to our WebSocket for real-time data streaming.
+                </p>
+              </div>
+              <div class="">
+                <h2 class="text-[2.4rem] font-medium sm:pt-16 pt-4 pb-8">
+                  Constant support
+                </h2>
+                <p class="pb-20">
+                  Live customer support available to all customers worldwide by
+                  phone or email. Dedicated account managers for partners.
+                </p>
+                <div
+                  class="flex sm:flex-row flex-col gap-4 md:justify-start justify-center sm:w-[180px] w-full"
+                >
+                  <button
+                    onclick="url()"
+                    class="inline bg-white py-[1rem] hover:bg-[#03fc9d] hover:text-[#003b2f] rounded-md w-full text-[#003b2f] font-medium"
+                  >
+                    Get started
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="flex justify-center m-auto">
+            <img src="img/6.webp" alt="" class="w-full" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Advanced -->
+
+    <!-- Reliable -->
+    <section class="py-32">
+      <div class="max-w-[1440px] m-auto px-8">
+        <div class="text-center">
+          <h2 class="text-[2.8rem] text-[#003b2f]">
+            <span class="text-[2.8rem] bg-[#03fc9d] px-4 text-[#003b2f]"
+              >Reliable</span
+            >
+            institutional access to crypto
+          </h2>
+          <div class="flex md:flex-row flex-col justify-center items-center sm:gap-44 gap-24 py-32 w-full m-auto">
+            <div class="w-[20rem]">
+              <img src="img/7.webp" alt="" class="w-full" />
+            </div>
+            <div class="w-[25rem]">
+              <img src="img/8.webp" alt="" class="w-full" />
+            </div>
+          </div>
+          <div class="">
+              <button
+                onclick="url()"
+                class="inline bg-[#03fc9d] py-[1.3rem] rounded-md sm:w-[400px] w-full text-[#003b2f] font-medium text-[1.5rem] hover:bg-[#003b2f] hover:text-[#03fc9d]"
+              >
+              Learn about the institutional offer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Reliable -->
+
+    <!-- 3 steps -->
+    <section class="bg-[#f2f2f2] py-32">
+      <div class="max-w-[1440px] m-auto px-8">
+        <div class="grid md:grid-cols-2 grid-cols-1 md:grid-4 gap-32 sm:text-start text-center">
+          <article>
+            <h2 class="text-[#003b2f] text-[4.8rem] font-medium"><span class="text-[4.8rem] bg-[#03fc9d] px-8 font-medium">3 steps</span> to start trading</h2>
+            <div
+              class="flex md:justify-start justify-center sm:w-[180px] w-full pt-20"
+            >
+              <button
+                onclick="url()"
+                class="inline bg-[#03fc9d] hover:bg-white py-[1rem] rounded-md w-full text-black font-medium"
+              >
+                Get started
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-4 gap-20">
+              <article>
+                <div class="flex flex-col sm:justify-start justify-center sm:items-start items-center">
+                  <h1 class="text-[2rem] font-bold text-[#003b2f] sm:block hidden">1.</h1>
+                  <div class="">
+                    <img src="img/9.webp" alt="" class="w-[10rem] py-8">
+                  </div>
+                  <h2 class="text-[2.8rem] font-medium text-[#003b2f]"><span class="sm:hidden text-[2.8rem] font-medium text-[#003b2f]">1.</span> Register</h2>
+                  <p class="pt-8 text-[#003b2f]">Choose the right account type and verify your identity.</p>
+                </div>
+              </article>
+              <article>
+                <div class="flex flex-col sm:justify-start justify-center sm:items-start items-center">
+                  <h1 class="text-[2rem] font-bold text-[#003b2f] sm:block hidden">2.</h1>
+                  <div class="">
+                    <img src="img/10.webp" alt="" class="w-[10rem] py-8">
+                  </div>
+                  <h2 class="text-[2.8rem] font-medium text-[#003b2f]"><span class="sm:hidden text-[2.8rem] font-medium text-[#003b2f]">2.</span> Fund</h2>
+                  <p class="pt-8 text-[#003b2f]">Choose the right account type and verify your identity.</p>
+                </div>
+              </article>
+              <article>
+                <div class="flex flex-col sm:justify-start justify-center sm:items-start items-center">
+                  <h1 class="text-[2rem] font-bold text-[#003b2f] sm:block hidden">3.</h1>
+                  <div class="">
+                    <img src="img/11.webp" alt="" class="w-[10rem] py-8">
+                  </div>
+                  <h2 class="text-[2.8rem] font-medium text-[#003b2f]"><span class="sm:hidden text-[2.8rem] font-medium text-[#003b2f]">3.</span> Trade</h2>
+                  <p class="pt-8 text-[#003b2f]">Choose the right account type and verify your identity.</p>
+                </div>
+              </article>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- end of 3 steps -->
+
+    <!-- british actors -->
+    <section class="bg-[#03fc9d]">
+      <div class="max-w-[1440px] m-auto px-8 py-32">
+        <h2 class="text-[4.8rem] pb-20 font-medium"><span class="text-[4.8rem] font-medium bg-white px-8">British</span> actors</h2>
+        <div class="swiper mySwipers">
+          <div class="swiper-wrapper">
+            <div data-hash="slide1" class="swiper-slide">
+              <article class="bg-[#003b2f] flex flex-col justify-center items-center text-center p-10 relative border-[.3rem] border-white">
+                <div class=" rounded-full overflow-hidden">
+                  <img src="img/Robert Pattinson.webp" alt="" class=" w-[15rem]">
+                </div>
+                <div class="absolute top-5 right-5 text-white">
+                  <i class="fa-solid fa-quote-right text-[5rem]"></i>
+                </div>
+                <div class="absolute top-5 left-5 text-white">
+                  <i class="fa-solid fa-quote-left text-[5rem]"></i>
+                </div>
+                <div class="text-white">
+                  <h2 class="text-[2.8rem] py-4">Robert Pattinson</h2>
+                  <p class="">Robert Douglas Thomas Pattinson was born May 13, 1986 in London, England, to Richard Pattinson, a car dealer importing vintage cars, and Clare Pattinson (née Charlton), who worked as a booker at a model agency. </p>
+                </div>
+              </article>
+            </div>
+            <div data-hash="slide2" class="swiper-slide">
+              <article class="bg-[#003b2f] flex flex-col justify-center items-center text-center p-10 relative border-[.3rem] border-white">
+                <div class=" rounded-full overflow-hidden">
+                  <img src="img/Kate Winslet.jpg" alt="" class=" w-[15rem]">
+                </div>
+                <div class="absolute top-5 right-5 text-white">
+                  <i class="fa-solid fa-quote-right text-[5rem]"></i>
+                </div>
+                <div class="absolute top-5 left-5 text-white">
+                  <i class="fa-solid fa-quote-left text-[5rem]"></i>
+                </div>
+                <div class="text-white">
+                  <h2 class="text-[2.8rem] py-4">Kate Winslet</h2>
+                  <p class="">Ask Kate Winslet what she likes about any of her characters, and the word "ballsy" is bound to pop up at least once. The British actress has made a point of eschewing straightforward pretty-girl parts in favor. </p>
+                </div>
+              </article>
+            </div>
+            <div data-hash="slide3" class="swiper-slide">
+              <article class="bg-[#003b2f] flex flex-col justify-center items-center text-center p-10 relative border-[.3rem] border-white">
+                <div class=" rounded-full overflow-hidden">
+                  <img src="img/Henry Cavill.jfif" alt="" class=" w-[15rem]">
+                </div>
+                <div class="absolute top-5 right-5 text-white">
+                  <i class="fa-solid fa-quote-right text-[5rem]"></i>
+                </div>
+                <div class="absolute top-5 left-5 text-white">
+                  <i class="fa-solid fa-quote-left text-[5rem]"></i>
+                </div>
+                <div class="text-white">
+                  <h2 class="text-[2.8rem] py-4">Henry Cavill</h2>
+                  <p class="">Henry William Dalgliesh Cavill was born on the Bailiwick of Jersey, a British Crown dependency in the Channel Islands. His mother, Marianne (Dalgliesh), a housewife, was also born on Jersey, and is of Irish. </p>
+                </div>
+              </article>
+            </div>
+            <div data-hash="slide4" class="swiper-slide">
+              <article class="bg-[#003b2f] flex flex-col justify-center items-center text-center p-10 relative border-[.3rem] border-white">
+                <div class=" rounded-full overflow-hidden">
+                  <img src="img/Emily Blunt.jfif" alt="" class=" w-[15rem]">
+                </div>
+                <div class="absolute top-5 right-5 text-white">
+                  <i class="fa-solid fa-quote-right text-[5rem]"></i>
+                </div>
+                <div class="absolute top-5 left-5 text-white">
+                  <i class="fa-solid fa-quote-left text-[5rem]"></i>
+                </div>
+                <div class="text-white">
+                  <h2 class="text-[2.8rem] py-4"> Emily Blunt</h2>
+                  <p class="">Emily Olivia Laura Blunt is a British actress known for her roles in The Devil Wears Prada (2006), The Young Victoria (2009), Edge of Tomorrow (2014), and The Girl on the Train (2016), among many others.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- endof  british actors -->
+
+    <!-- footer -->
+     <footer class="bg-[#003b2f] py-32">
+      <div class="max-w-[1440px] m-auto px-8">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 text-white">
+          <article>
+            <h2 class="font-medium pt-5 pb-10">About</h2>
+            <div class="flex flex-col gap-4 text-slate-400">
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Who We Are</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">The Bitstamp Way</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Careers</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Legal & Privacy</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Legal & Privacy - USA</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Fee Schedule</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">FAQ</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h2 class="font-medium pt-5 pb-10">Product</h2>
+            <div class="flex flex-col gap-4 text-slate-400">
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Mobile Apps</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Tradeview</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Earn Stake</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Earn Lend</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h2 class="font-medium pt-5 pb-10">Services</h2>
+            <div class="flex flex-col gap-4 text-slate-400">
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Institutions & Partners</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Bitstamp as a Service</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">The Bitstamp Ecosystem</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Pro</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h2 class="font-medium pt-5 pb-10">Resources</h2>
+            <div class="flex flex-col gap-4 text-slate-400">
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">API Documentation</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">PGP Key</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Lightning Network</a>
+              </div>
+              <div class="">
+                <a href="#" class="text-[1.4rem] hover:border-b-[.1rem]">Crypto Pulse</a>
+              </div>
+            </div>
+            <div class="flex gap-4 pt-10">
+              <i class="fa-brands fa-x-twitter text-[2rem] hover:text-gray-400"></i>
+              <i class="fa-brands fa-linkedin text-[2rem] hover:text-gray-400"></i>
+              <i class="fa-brands fa-facebook text-[2rem] hover:text-gray-400"></i>
+              <i class="fa-brands fa-instagram text-[2rem] hover:text-gray-400"></i>
+              <i class="fa-brands fa-telegram text-[2rem] hover:text-gray-400"></i>
+            </div>
+          </article>
+        </div>
+      </div>
+     </footer>
+    <!-- end of footer -->
+
+    <!-- script app.js-->
+    <script src="js/app.js"></script>
+  </body>
+</html>
